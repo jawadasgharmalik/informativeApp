@@ -2151,11 +2151,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-textarea {
-  overflow: auto;
-  /* 1 */
-  vertical-align: top;
-  /* 2 */ }
+
 
 img {
   -webkit-user-drag: none; }
@@ -2180,7 +2176,7 @@ table {
   box-sizing: border-box; }
 
 html {
-  overflow: hidden;
+  
   -ms-touch-action: pan-y;
   touch-action: pan-y; }
 
@@ -2201,7 +2197,7 @@ body, .ionic-body {
   right: 0;
   bottom: 0;
   left: 0;
-  overflow: hidden;
+ 
   margin: 0;
   padding: 0;
   color: #000;
@@ -2210,7 +2206,7 @@ body, .ionic-body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 20px;
   text-rendering: optimizeLegibility;
-  -webkit-backface-visibility: hidden;
+ 
   -webkit-user-drag: none; }
 
 body.grade-b, body.grade-c {
@@ -2219,52 +2215,18 @@ body.grade-b, body.grade-c {
 .content {
   position: relative; }
 
-.scroll-content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  margin-top: -1px;
-  width: auto;
-  height: auto; }
 
 .scroll-content-false, .menu .scroll-content.scroll-content-false {
   z-index: 11; }
 
-.scroll-view {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  margin-top: -1px; }
 
 /**
  * Scroll is the scroll view component available for complex and custom
  * scroll view functionality.
  */
-.scroll {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  text-size-adjust: none;
-  -webkit-transform-origin: left top;
-  -moz-transform-origin: left top;
-  transform-origin: left top; }
-
-::-webkit-scrollbar {
-  display: none; }
-
-.scroll-bar {
-  position: absolute;
-  z-index: 9999; }
 
 .ng-animate .scroll-bar {
-  visibility: hidden; }
+   }
 
 .scroll-bar-h {
   right: 2px;
@@ -2334,7 +2296,7 @@ body.grade-b, body.grade-c {
   top: -60px;
   right: 0;
   left: 0;
-  overflow: hidden;
+  
   margin: auto;
   height: 60px; }
   .scroll-refresher .ionic-refresher-content {
@@ -2352,9 +2314,9 @@ body.grade-b, body.grade-c {
       bottom: 10px; }
   .scroll-refresher .icon-refreshing, .scroll-refresher .icon-pulling {
     width: 100%;
-    -webkit-backface-visibility: hidden;
+    
     -webkit-transform-style: preserve-3d;
-    backface-visibility: hidden;
+    
     transform-style: preserve-3d; }
   .scroll-refresher .icon-pulling {
     -webkit-animation-name: refresh-spin-back;
@@ -2426,9 +2388,9 @@ ion-infinite-scroll {
     opacity: 1; }
 
 .overflow-scroll {
-  overflow-x: hidden;
+  
   overflow-y: scroll;
-  -webkit-overflow-scrolling: touch; }
+   }
   .overflow-scroll .scroll {
     position: static;
     height: 100%;
@@ -2480,7 +2442,7 @@ ion-infinite-scroll {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  overflow: hidden; }
+   }
 
 /**
  * Typography
@@ -2766,7 +2728,7 @@ a.subdued {
       background-image: linear-gradient(180deg, #b2b2b2, #b2b2b2 50%, transparent 50%); }
   .bar.bar-positive {
     border-color: #145fd7;
-    background-color: #4a87ee;
+    background-color: #DF314D;
     background-image: linear-gradient(0deg, #145fd7, #145fd7 50%, transparent 50%);
     color: #fff; }
     .bar.bar-positive .title {
@@ -7090,7 +7052,7 @@ a.button {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px;
+  padding: 1px;
   width: 100%; }
 
 .row + .row {
